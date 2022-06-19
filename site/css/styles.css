@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: helvetica;
+}
+.div1 {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 2px 2px 2px 2px;
+  margin: 2px 5px 5px 2px;
+}
+p {
+  float: right;
+  color: white;
+  background-color: red;
+  margin-top: -2px;
+  margin-right: -2px;
+  padding: 2px 24px 2px 24px;
+  clear: right;
+  border: 1px solid black;
+  font-weight: bold;
+}
+h1 {
+text-align: center;
+}
+#p1{
+  background-color: #EF7909;
+}
+#p3{
+  background-color: #5CEE7E;
+}
+section {
+  clear: right;
+}
+@media (min-width : 992px){
+  .rowl {
+    width: 33.33%;
+    float: left;
+  }
+}
+@media(min-width : 768px) and (max-width : 991px){
+  .rowm {
+    width: 50%;
+    float: left;
+  }
+  #cont3 {
+    width: 100%;
+    float: left;
+  }
+}
